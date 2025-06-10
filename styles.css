@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+}
+.heading1 {
+    color: #393939;
+    text-decoration:dotted underline;
+    font-size: 50px;
+    text-align: center;
+
+}
+body {
+    background-color:#edeee7;
+    color: #393939;
+    
+}
+.Button{
+    padding: 15px 35px;
+    cursor: pointer;
+    background-color: #6e6e6d;
+    color: #e7e8e1;
+    border: none;
+    border-radius: 16px 16px 44px 44px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.Button:hover {
+    font-size:20px;
+    padding: 20px 40px;
+}
+.unordered-list {
+    display: grid;
+    list-style: none;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.unordered-list li {
+    outline: solid 1.5px #6e6e6d;
+    padding: 10px;
+    text-align: center;
+}
+.ordered-list-1 {
+    display: grid;
+    list-style: none;
+    grid-template-rows: auto auto auto;
+    gap: 10px
+}
+.ordered-list-1 li {
+    outline: solid 1.5px #6e6e6d;
+    padding: 10px;
+    text-align: center;
+}
+.ordered-list-2 {
+    list-style: none;
+    display: flex;
+    gap: 0px 10px;
+    justify-content: space-evenly;
+    outline: solid 1.5px #6e6e6d;
+    height: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#hunter-eyes{
+    width: 50vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
